@@ -1,0 +1,129 @@
+body {
+    width: 400px;
+    height: 500px;
+    background-color: darkgray;
+}
+
+.container {
+    display: block;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 7px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.url-form {
+    display: none;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="url"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+    height: 25em;
+}
+
+button {
+    background-color: #0ed6ff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#creationDate {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+
+
+#urlMemo {
+    display: block;
+    background-color: #ccfdfd;
+    border-radius: 4px;
+    font-size: 18px;
+    padding: 2.5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#urlList {
+    display: block;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.memoRaw {
+    display: flex;
+    list-style-type: none;
+    list-style: none;
+    margin: 5px 0px;
+    max-height: 43.28px;
+    overflow-y: auto;
+}
+
+.memoText {
+    color: #0ed6ff;
+    font-size: 15px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.memoText:hover {
+    background-color: #ccfdfd;
+    font-weight: bold;
+    color: #0051ff;
+}
+
+.memoRemove {
+    margin-right: 5px;
+    font-size: 15px;
+    color: #0ed6ff;
+    align-items: center;
+    background: none;
+    border: 1px solid #0ed6ff;
+    cursor: pointer;
+}
+
+.memoRemove:hover {
+    translate: scale(2);
+    background: #0ed6ff;
+    color: #fff;
+}
+
+.addBtn {
+    margin-top: 7%;
+    display: block;
+    background-color: #ccfdfd;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
