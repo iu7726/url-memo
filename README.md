@@ -3,6 +3,8 @@
 ## Description
 This project is a Chrome extension that allows you to save additional descriptions to URLs and is inspired by the bookmarking feature of web browsers.
 
+[Chrome Web Store Download](https://chromewebstore.google.com/detail/url-memo/dbjfhkpehahlbadeagobigbaklhgdjpg?hl=ko&authuser=0)
+
 ## Usage
 ### You can check the mapped notes.
 ![alt urlmemo list](/image/urlmemo_list.png)
@@ -17,6 +19,4 @@ This project is a Chrome extension that allows you to save additional descriptio
 </p>
 
 ### You can delete or modify registered notes.
-
-
 
